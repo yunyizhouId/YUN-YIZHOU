@@ -1,0 +1,13 @@
+{
+  "name": "ticket-watch-helper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser watcher that reloads a page and alerts when a target button becomes clickable.",
+  "type": "module",
+  "scripts": {
+    "watch-ticket": "node ticket-watcher.js"
+  },
+  "dependencies": {
+    "playwright": "^1.54.2"
+  }
+}
